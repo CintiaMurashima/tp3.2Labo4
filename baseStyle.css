@@ -1,0 +1,92 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+  }
+  
+  form {
+    max-width: 500px;
+    background: white;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius:20px;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+  
+  textarea{
+      min-height: 50px;
+      max-height: 200px;
+      margin-bottom: 5px; 
+      border: 15px solid rgba(0, 0, 0, 0);
+      background:#f4f7f8 ;
+  }
+    
+  button {
+    padding: 19px 39px 18px 39px;
+    font-size: 18px;
+    font-style: normal;
+    border-radius: 5px;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    color: white;
+    background:#3ac162;
+    width:48%;
+  }
+
+  button:hover{
+      background-color: #48a564;
+  }
+  
+  label {
+    display: contents;
+    margin-bottom: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .full-width{
+    width: 100%;
+    background:#f4f7f8 ;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius:2px;
+  }
+  .number {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    background: #3ac162;
+    border-radius: 50%;
+    float: left;
+    color: white;
+    margin-top: 8px;
+  }
+  .number-2{
+    margin-top: 17px;
+  }
+
+  @media screen and (min-width: 500px) {
+  
+    form {
+      max-width: 500px;
+    }
+  
+  }
+
+  .container{
+    display:flex;
+    justify-content: center;
+  }

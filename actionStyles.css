@@ -1,0 +1,35 @@
+.container {
+  border: 2px solid #cecece;
+  display: flex;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  flex-direction: column;/*se comporta como columna*/
+  align-items: center;/*alinea todos los elementos del primer nivel*/
+}   
+.cell {
+  border: 1px solid #cecece;
+  text-align: center; /*centrar texto*/
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table {
+  width: 100%;
+}
+
+.background-grey {
+  background: #dedede;
+  
+}
+
+.negrita {
+  font-weight: bold;/*para poner en negrita el texto*/
+}
+.verdita {
+  background: #00ff00;
+}
+
+
+
+
